@@ -7,9 +7,10 @@
 	color:white;
 }
 
-#unorder li{
+#unorder {
 	width:50%;
-	background-color:grey;
+	padding:10px;
+/* 	background-color:grey; */
 }
 
 #change{
@@ -23,4 +24,8 @@
 
 #check3{
 	background-color:pink;
+}
+
+.grey{
+	background-color:grey;
 }
