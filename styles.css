@@ -1,31 +1,29 @@
-/*  your css code here. If applicable */
 :root{
-	background:rgb(135, 206, 235);
-}
-#div1{
-	background-color:black;
-	color:white;
+	background-color:rgb(135, 206, 235)
 }
 
-#unorder {
-	width:50%;
-	padding:10px;
-/* 	background-color:grey; */
+p:first-child {
+  color: white;
+  background-color: black;
+  padding: 10px;
 }
 
-#change{
+p:last-child{
 	color:red;
 }
 
-.check1{
-	background-color:white;
-	font-size:22px
+ul li:nth-child(odd) {
+  background-color: white;
 }
-
-#check3{
-	background-color:pink;
+ul li:first-child,
+ul li:last-child {
+  font-size: 22px;
 }
-
-.grey{
-	background-color:grey;
+ul li:nth-last-child(3) {
+  background-color: pink;
+}
+ul li {
+  width: 50%;
+  padding: 10px;
+  background-color: gray;
 }
